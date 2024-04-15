@@ -1,0 +1,45 @@
+body {
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px #7a7a7a;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #660000;
+    color: #000000;
+    border: 4px dotted #111111;
+    border-radius: 10px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+p:hover, h3:hover, h4:hover {
+    background: #f4a261;
+    font-size: 25px;
+}
+img:hover {
+    border: 5px solid #000000;
+    border-radius: 10px;
+}
+.anm {
+    opacity: 0;
+    transition: 230ms;
+}
+h5:hover {
+    opacity: 1;
+}
+
+
+
